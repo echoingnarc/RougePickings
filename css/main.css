@@ -1,0 +1,125 @@
+@font-face{
+	font-family: Wisdom Script;
+	src: url('../wisdom_script_ai') format('opentype');
+}
+/****** BASE STYLES ******/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/***** GRID *****/
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.half-width{
+	float: left;
+}
+.third-width{
+	width: 400px;
+	float: left;
+
+}
+/***** HEADER *****/
+header h1{
+	padding: 20px 0;
+	font-family: 'Montserrat', sans-serif, bold;
+	color: #000000;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+header h1 span{
+	color:#77a466;
+}
+nav {
+	padding-top: 30px;
+	padding-left:500px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 14px;
+	color:#77a466;
+	line-height: 25px;
+}
+/***** ABOUT *****/
+#about h2 {
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	color:#77a466;
+}
+#about p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	padding-right: 50px;
+	
+}
+img{
+	border-bottom: 5px solid #77a466;
+	border-top: 5px solid #77a466;
+}
+#content .full-width{ 
+	border-top: 1px solid grey;
+	
+}
+/***** MENU *****/
+#menu h3{
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#000000;
+}
+#menu ul li{
+	display: inline-block;
+	text-align: justify;
+}
+#menu p{
+	text-transform: uppercase;
+	font-size: 14px;
+	color:#77a466;
+}
+/***** REVIEWS *****/
+#reviews h3{
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#000000;
+}
+}
+#reviews p{
+	font-size: 14px;
+	color:#000000;
+	text-align: center;
+}
+/**** Locations ****/
+#locations h3{
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#000000;
+}
+#locations p{
+	font-size: 14px;
+	color:#000000;
+	text-align: center;
+}
+/***** FOOTER/POWERED ******/
+footer {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 14px;
+	text-transform: uppercase;
+	color:#000000;
+	clear:left;
+}
+
+footer span{
+	color:#77a466;
+	font-family:'Wisdom Script';
+	font-size: 14px;
+	text-transform: lowercase;
+}

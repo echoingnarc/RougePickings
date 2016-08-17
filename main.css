@@ -1,0 +1,90 @@
+@font-face{
+	font-family: Wisdom Script;
+	src: url('../wisdom_script_ai') format('opentype');
+}
+/****** BASE STYLES ******/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+#about, #menu, #locations, #gallery, #reviews, #contact{
+	height: 600px;
+}
+/***** GRID *****/
+.full-width{
+	width: 1200px;
+	margin: 0 auto;
+}
+.third-width{
+	width: 33%;
+	float:left;
+	border: solid, 5px, #dedbdc;
+}
+/***** HEADER *****/
+header{
+	height:800px; 
+}
+header h1{
+	padding: 20px 0;
+	font-family: 'Montserrat', sans-serif, bold;
+	color: #000000;
+	font-size: 30px;
+}
+header h1 span{
+	color:#77a466;
+}
+nav{
+	float:right;
+	padding: 20px 10px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 18px;
+	color:#77a466;
+	padding-left: 20px;
+}
+/***** ABOUT *****/
+#about .full-width{
+	padding: 80px 0;
+	background-image:url("../img/hero-image.png");
+	background-size:cover;
+}
+#about h2 {
+	font-family: 'Montserrat', sans-serif, bold;
+	font-size: 36px;
+	text-transform: uppercase;
+	color:#77a466;
+}
+#about p{
+	font-size: 16px;
+	color: #000000;
+	line-height: 25px;
+	padding-right: 50px;
+}
+/***** MIDDLE *****/
+#content {
+	text-align: center;
+	justify-content: center;
+}
+#work .full-width{
+	padding: 115px 0;
+}
+#work .img{
+	padding-bottom:30px;
+}
+#locations {
+	text-align: center;
+}
+
+/*****Footer*****/
+footer h1 span{
+	font-family: 'Wisdom Script', 'cursive';
+	font-size: 20px;
+
+}
+footer h1{
+	font-family:';
+}
