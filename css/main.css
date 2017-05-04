@@ -1,38 +1,41 @@
 @font-face{
-	font-family: Wisdom Script;
-	src: url('../wisdom_script_ai') format('opentype');
+	font-family: 'Wisdom Script';
+	src: url('font/wisdom_script_ai.otf') format('opentype');
 }
 /****** BASE STYLES ******/
 body{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif, bold;
+}
+#about, #menu, #locations, #reviews, #contact{
+	height: 500px;
 }
 /***** GRID *****/
 .full-width{
 	width: 1200px;
 	margin: 0 auto;
 }
-.half-width{
-	float: left;
-}
 .third-width{
-	width: 400px;
-	float: left;
-
+	width: 600px;
+	float:left;
 }
 /***** HEADER *****/
+header{
+	height:100px; 
+}
 header h1{
 	padding: 20px 0;
 	font-family: 'Montserrat', sans-serif, bold;
 	color: #000000;
 	font-size: 30px;
+	float:left;
 	text-transform: uppercase;
 }
 header h1 span{
 	color:#77a466;
 }
-nav {
-	padding-top: 30px;
-	padding-left:500px;
+nav{
+	float:right;
+	padding: 20px 10px;
 }
 nav ul li{
 	display: inline-block;
@@ -40,86 +43,73 @@ nav ul li{
 nav ul li a{
 	text-transform: uppercase;
 	text-decoration:none;
-	font-size: 14px;
+	font-size: 15px;
+	line-height: 16px;
 	color:#77a466;
-	line-height: 25px;
+	padding-left: 20px;
 }
 /***** ABOUT *****/
+#about .full-width{
+	padding: 20px 0px;
+}
 #about h2 {
 	font-family: 'Montserrat', sans-serif, bold;
-	font-size: 18px;
+	font-size: 22px;
 	text-transform: uppercase;
 	color:#77a466;
 }
 #about p{
+	font-family: 'Montserrat', sans-serif, bold;
 	font-size: 16px;
 	color: #000000;
 	line-height: 25px;
 	padding-right: 50px;
-	
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dedbdc;
 }
-img{
-	border-bottom: 5px solid #77a466;
-	border-top: 5px solid #77a466;
+#photo{
+	border-top:5px solid #77a466;
+	border-bottom:5px solid #77a466;
 }
-#content .full-width{ 
-	border-top: 1px solid grey;
-	
-}
-/***** MENU *****/
-#menu h3{
-	font-family: 'Montserrat', sans-serif, bold;
-	font-size: 12px;
-	text-transform: uppercase;
-	color:#000000;
-}
-#menu ul li{
-	display: inline-block;
-	text-align: justify;
-}
-#menu p{
-	text-transform: uppercase;
-	font-size: 14px;
-	color:#77a466;
-}
-/***** REVIEWS *****/
-#reviews h3{
-	font-family: 'Montserrat', sans-serif, bold;
-	font-size: 12px;
-	text-transform: uppercase;
-	color:#000000;
-}
-}
-#reviews p{
-	font-size: 14px;
-	color:#000000;
-	text-align: center;
-}
-/**** Locations ****/
-#locations h3{
-	font-family: 'Montserrat', sans-serif, bold;
-	font-size: 12px;
-	text-transform: uppercase;
-	color:#000000;
-}
-#locations p{
-	font-size: 14px;
-	color:#000000;
-	text-align: center;
-}
-/***** FOOTER/POWERED ******/
-footer {
-	text-align: center;
-	font-family: 'Montserrat', sans-serif, bold;
-	font-size: 14px;
-	text-transform: uppercase;
-	color:#000000;
-	clear:left;
+/***** MIDDLE *****/
+#content .third-width{
+	padding: 20px 0px;
 }
 
-footer span{
-	color:#77a466;
-	font-family:'Wisdom Script';
+#menu {
+	border-right:1px solid #dedbdc;
+	text-align: justify;
+	
+}
+#menu p{
+	font-family: 'Montserrat', sans-serif, bold;
 	font-size: 14px;
-	text-transform: lowercase;
+	text-transform: uppercase;
+	color:#77a466;
+}
+#reviews {
+	text-align: justify;
+	border-right:1px solid #dedbdc;
+	margin:0 auto;
+}
+#locations {
+	text-align: justify;
+	
+}
+
+/*****Footer*****/
+footer {
+	width: 100%; 
+	height: 50px; 
+	border-top: 3px solid #eeeeee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
+}
+
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+	font-size: 14px;
 }

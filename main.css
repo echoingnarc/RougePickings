@@ -1,6 +1,6 @@
 @font-face{
 	font-family: Wisdom Script;
-	src: url('../wisdom_script_ai') format('opentype');
+	src: url('font/wisdom_script_ai.otf') format('opentype');
 }
 /****** BASE STYLES ******/
 body{
@@ -17,7 +17,6 @@ body{
 .third-width{
 	width: 33%;
 	float:left;
-	border: solid, 5px, #dedbdc;
 }
 /***** HEADER *****/
 header{
@@ -67,24 +66,29 @@ nav ul li a{
 /***** MIDDLE *****/
 #content {
 	text-align: center;
-	justify-content: center;
+	justify-content: left;
 }
-#work .full-width{
-	padding: 115px 0;
+#menu {
+	border-right:10px solid #000000;
 }
-#work .img{
-	padding-bottom:30px;
 }
 #locations {
-	text-align: center;
+	text-align: justify;
 }
 
 /*****Footer*****/
-footer h1 span{
-	font-family: 'Wisdom Script', 'cursive';
-	font-size: 20px;
-
+footer {
+	width: 100%; 
+	height: 50px; 
+	border-top: 3px solid #eeeeee; 
+	margin: 0 auto; 
+	clear: both; 
+	text-align: center;
 }
-footer h1{
-	font-family:';
+
+footer span {
+	font-family: "Wisdom Script", script; 
+	text-transform: lowercase; 
+	color: #77a466; 
+	font-size: 14px;
 }
