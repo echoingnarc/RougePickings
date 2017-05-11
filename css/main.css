@@ -73,28 +73,40 @@ nav ul li a{
 }
 /***** MIDDLE *****/
 #content .third-width{
-	padding: 20px 0px;
+  width: 33%;
+  padding: 10px 0px;
+  height: auto;
+  float: left;
+}
+
+#content h3{
+  padding: 10px 30px;
+  text-align: justify;
+  
 }
 
 #menu {
 	border-right:1px solid #dedbdc;
 	text-align: justify;
-	
+  	padding: 0px 30px;
 }
 #menu p{
 	font-family: 'Montserrat', sans-serif, bold;
 	font-size: 14px;
 	text-transform: uppercase;
 	color:#77a466;
+  	padding: 0px 30px;
 }
-#reviews {
-	text-align: justify;
+#review{ 
 	border-right:1px solid #dedbdc;
-	margin:0 auto;
-}
-#locations {
+	 }
+#reviews p {
 	text-align: justify;
-	
+ 	padding: 0px 30px;
+}
+#locations p {
+	text-align: justify;
+  	padding: 0px 30px;
 }
 
 /*****Footer*****/
@@ -111,5 +123,5 @@ footer span {
 	font-family: "Wisdom Script", script; 
 	text-transform: lowercase; 
 	color: #77a466; 
-	font-size: 14px;
+	font-size: 30px;
 }
